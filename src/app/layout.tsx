@@ -1,23 +1,36 @@
 import type { Metadata } from "next";
-import { Inter, Space_Grotesk, JetBrains_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({
+const inter = localFont({
   variable: "--font-inter",
-  subsets: ["latin"],
   display: "swap",
+  src: [
+    { path: "../../public/fonts/inter/inter-400.woff2", weight: "400", style: "normal" },
+    { path: "../../public/fonts/inter/inter-500.woff2", weight: "500", style: "normal" },
+    { path: "../../public/fonts/inter/inter-600.woff2", weight: "600", style: "normal" },
+    { path: "../../public/fonts/inter/inter-700.woff2", weight: "700", style: "normal" },
+  ],
 });
 
-const spaceGrotesk = Space_Grotesk({
+const spaceGrotesk = localFont({
   variable: "--font-space-grotesk",
-  subsets: ["latin"],
   display: "swap",
+  src: [
+    { path: "../../public/fonts/space-grotesk/space-grotesk-400.woff2", weight: "400", style: "normal" },
+    { path: "../../public/fonts/space-grotesk/space-grotesk-500.woff2", weight: "500", style: "normal" },
+    { path: "../../public/fonts/space-grotesk/space-grotesk-600.woff2", weight: "600", style: "normal" },
+    { path: "../../public/fonts/space-grotesk/space-grotesk-700.woff2", weight: "700", style: "normal" },
+  ],
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const jetbrainsMono = localFont({
   variable: "--font-jetbrains",
-  subsets: ["latin"],
   display: "swap",
+  src: [
+    { path: "../../public/fonts/jetbrains-mono/jetbrains-mono-400.woff2", weight: "400", style: "normal" },
+    { path: "../../public/fonts/jetbrains-mono/jetbrains-mono-500.woff2", weight: "500", style: "normal" },
+  ],
 });
 
 const siteUrl = "https://humayrashajahan.dev";
