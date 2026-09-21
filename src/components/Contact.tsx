@@ -3,8 +3,8 @@
 import { useState } from "react";
 import { Reveal } from "@/components/Reveal";
 
-const EMAIL = "humayra.shajahan@example.com";
-const PHONE = "+974 0000 0000";
+const EMAIL = "humayrashajahan@gmail.com";
+const PHONE = "+94 76 733 2238";
 const LINKEDIN = "https://linkedin.com/in/humayrashajahan";
 
 export function Contact() {

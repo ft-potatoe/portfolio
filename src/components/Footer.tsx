@@ -19,13 +19,13 @@ export function Footer() {
               LinkedIn
             </a>
             <a
-              href="mailto:humayra.shajahan@example.com"
+              href="mailto:humayrashajahan@gmail.com"
               className="text-ink-dim hover:text-blue-bright transition-colors underline-anim"
             >
               Email
             </a>
             <a
-              href="https://github.com/humayrashajahan"
+              href="https://github.com/ft-potatoe"
               target="_blank"
               rel="noopener noreferrer"
               className="text-ink-dim hover:text-blue-bright transition-colors underline-anim"

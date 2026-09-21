@@ -33,7 +33,7 @@ const jetbrainsMono = localFont({
   ],
 });
 
-const siteUrl = "https://humayrashajahan.dev";
+const siteUrl = "https://humayra.space";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
