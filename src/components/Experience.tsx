@@ -2,11 +2,19 @@ import { Reveal } from "@/components/Reveal";
 
 const TIMELINE = [
   {
-    role: "Market Operations & Strategy",
+    role: "Developer Relations Intern",
+    org: "WSO2 Lanka",
+    period: "June 2026 — Present",
+    badge: "Current",
+    points: [],
+  },
+  {
+    role: "Proof-of-Concept Developer",
     org: "Qatar Stock Exchange",
-    period: "Current",
+    period: "Before June 2026",
     badge: "AI / Automation",
     points: [
+      "Proofs of concept for QSE",
       "AI-powered market reporting automation",
       "Internal analytics tooling",
       "21-week AI upskilling programme",
